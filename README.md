@@ -10,7 +10,7 @@ Jout - idk
 
 Ethan - idk
 
-Jay - D1 Vegetarian
+Jay - idk
 
 Daphne - idk
 
