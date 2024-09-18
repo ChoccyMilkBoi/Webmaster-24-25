@@ -6,12 +6,12 @@ Jobs:
 
 Emilio - Coding :sob:
 
-Jout - idk
+Jout - Research
 
-Ethan - idk
+Ethan - Coding
 
-Jay - idk
+Jay - Research
 
-Daphne - idk
+Daphne - Design
 
-Alejandro - Yapping at interviews
+Alejandro - Yapping at interviews/Assistant Design
