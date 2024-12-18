@@ -8,9 +8,9 @@ Emilio - Coding :sob:
 
 Jout - Research
 
-Ethan - Coding
+Ethan - Here for the food
 
-Jay - Research
+Jay - Here to have fun
 
 Daphne - Design
 
