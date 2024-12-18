@@ -1,15 +1,39 @@
-import pollo from "./assets/PollosHermanos.jpg";
-
+import HalfBarCard from "./HalfBarCard";
+import Topbar from "./Topbar";
 function Homepage() {
 	return (
 		<>
-			<div className="full-grid">
-				<div className="bumper-L">One</div>
-				<div className="hero-section">
-					<img className="home-banner" src={pollo}></img>
-				</div>
-				<div className="bumper-R">Three</div>
+		<Topbar />
+		<br />
+		<br />
+
+		<div className="full-grid-2">
+			<div className="hero-section">
+				<h1 className="hero-yap">
+					greetings obese person
+				</h1>
+				<h4>
+					and welcome to rushil consoomz, up and coming vegetarian cuisine
+				</h4>
 			</div>
+			<div className="half-grid">
+				<HalfBarCard title = {"Menu"} column={1}>
+					<div></div>
+				</HalfBarCard>
+				<HalfBarCard title = {"Reservations"} column={2}>
+					<div></div>
+				</HalfBarCard>
+				<HalfBarCard title = {"Reservations"} column={3}>
+					<div></div>
+				</HalfBarCard>
+				<HalfBarCard title = {"Reservations"} column={4}>
+					<div></div>
+				</HalfBarCard>
+				<HalfBarCard title = {"Reservations"} column={5}>
+					<div></div>
+				</HalfBarCard>
+			</div>
+		</div>
 		</>
 	);
 }
