@@ -11,7 +11,7 @@ export default function HalfBarCard({title, column}: Props){
     return(
         <>
                 <div className={"half-bar-card-" + column}>
-                    <h1>{title}</h1>
+                    <h1 className="half-bar-card-title">{title}</h1>
                 </div>
         </>
     );
