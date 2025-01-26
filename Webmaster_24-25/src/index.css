@@ -118,16 +118,24 @@ li a:hover:not(.active) {
   font-family:'Brush Script MT';
 }
 
-.half-grid{
-  display: grid;
+.half-grid-wrapper{
+  display: flex;
+  width: 99%;
+  justify-content: center;
 
-  grid-row-start: 5;
-  grid-row-end: 6;
   grid-column-start: 1;
   grid-column-end: 6;
-  padding: 15px 15px 15px 15px;
-  grid-template-columns: repeat(5, 1fr) ;
+
+  grid-row-start: 5;
+  grid-row-end: 7;
+  
+  padding: 1% 0px 1% 1%;
   background-color: #FADF7F;
+}
+.half-grid{
+  display: grid;
+  
+  grid-template-columns: repeat(5, 1fr) ;
   
   width: 100%;
   height: auto;
@@ -136,7 +144,9 @@ li a:hover:not(.active) {
 }
 .half-bar-card-1{
   height: auto;
-  max-width: 20vw;
+  text-align: left;
+  max-width: 15vw;
+  max-height: 75%;
   background-color: #E0E0E0;
   grid-column-start: 1;
   grid-column-end: 2;
@@ -145,7 +155,9 @@ li a:hover:not(.active) {
 }
 .half-bar-card-2{
   height: auto;
-  max-width: 20vw;
+  text-align: left;
+  max-width: 15vw;
+  max-height: 75%;
   background-color: #E0E0E0;
   grid-column-start: 2;
   grid-column-end: 3;
@@ -153,7 +165,9 @@ li a:hover:not(.active) {
 }
 .half-bar-card-3{
   height: auto;
-  max-width: 20vw;
+  text-align: left;
+  max-width: 15vw;
+  max-height: 75%;
   background-color: #E0E0E0;
   grid-column-start: 3;
   grid-column-end: 4;
@@ -161,7 +175,9 @@ li a:hover:not(.active) {
 }
 .half-bar-card-4{
   height: auto;
-  max-width: 20vw;
+  text-align: left;
+  max-width: 15vw;
+  max-height: 75%;
   background-color: #E0E0E0;
   grid-column-start:4;
   grid-column-end:5;
@@ -169,7 +185,9 @@ li a:hover:not(.active) {
 }
 .half-bar-card-5{
   height: auto;
-  max-width: 20vw;
+  text-align: left;
+  max-width: 15vw;
+  max-height: 75%;
   background-color: #E0E0E0;
   border-radius: 10px;
   grid-column-start:5;
@@ -182,17 +200,25 @@ li a:hover:not(.active) {
 .about-us-home{
   grid-row-start:4;
   grid-row-end:5;
-
+  
   grid-column-start:1 ;
   grid-column-end:6;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-
+  
 }
-.TextRect{
-  background-color: #FADF7F;
+.text-rect{
+  background-color: #eac977;
   border-radius: 10px;
-  padding: 15px 15px 15px 15px;
+  display: flex;
+  text-align: center;
+  grid-column-start: 1;
+  grid-column-end: 7;
+}
+h1.text-rect-title{
+  font-size: 30;
+  font-weight: bolder;
+  color: #272D2D;
 }
 .about-us-home-title{
   font-size: 30;

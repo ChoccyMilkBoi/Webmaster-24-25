@@ -1,13 +1,8 @@
-
 interface Props {
-    title: string;
-    column: number;
+	title: string;
 }
 
-function TextRect(){
-    return (
-        <div className="text-rect">
-        </div>
-    );
+function TextRect({ title }: Props) {
+	return <div className="text-rect"></div>;
 }
 export default TextRect;
