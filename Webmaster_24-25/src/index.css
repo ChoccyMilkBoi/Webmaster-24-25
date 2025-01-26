@@ -1,3 +1,15 @@
+/* @font-face {
+  font-family: ;
+  src: url();
+} */
+
+
+
+
+
+
+
+
 .full-grid-1{
   display: grid;
   width: 100%;
@@ -70,23 +82,30 @@
 .full-back{
   background-color: #FBF3DA;
 }
-ul {
+.streamerBTW {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #50A2A7;
+  background-color:#d0ff95;
   position: fixed;
   top: 0;
   height: 52;
   width: 100vw;
 }
 
-li {
+.buttonBTW {
   float: left;
+}s
+
+
+.logoBTW {
+  float: left;
+  padding: 0px 0px;
+  height: auto;
 }
 
-li a {
+.buttonBTW a {
   display: block;
   color: black;
   text-align: center;
@@ -94,7 +113,7 @@ li a {
   text-decoration: none;
 }
 
-li a:hover:not(.active) {
+.buttonBTW a:hover:not(.active) {
   background-color: #80fbff;
 }
 
