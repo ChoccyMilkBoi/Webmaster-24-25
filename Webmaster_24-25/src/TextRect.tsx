@@ -1,8 +1,10 @@
+import { ReactNode } from "react";
+
 interface Props {
-	title: string;
+	children: ReactNode;
 }
 
-function TextRect({ title }: Props) {
-	return <div className="text-rect"></div>;
+function TextRect({ children }: Props) {
+	return <div className="about-us-home">{children}</div>;
 }
 export default TextRect;
