@@ -5,16 +5,17 @@ function Homepage() {
 	return (
 		<>
 			<Topbar />
-			<br />
-			<br />
 
 			<div className="full-grid-2">
 				<div className="hero-section">
 					<div className="center-hero-yap">
-						<h1 className="hero-yap">Welcome to blah blah,</h1>
-						<h1 className="hero-yap">
-							A modern multicultural vegetarian cuisine
-						</h1>
+						<p className="hero-yap font-special">
+							Fresh from the land, just how you want it
+						</p>
+						<p className="sub-center-hero-yap">
+							Fresh harvest prepares timeless recipes with your
+							choice of locally grown ingredients.
+						</p>
 					</div>
 				</div>
 
