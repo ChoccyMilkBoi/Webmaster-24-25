@@ -1,10 +1,13 @@
 import Topbar from "./Topbar";
+import "./index.css";
 
 function Menu_Render() {
 	return (
 		<>
 			<Topbar />
-			<div></div>
+			<div className="full-grid-2">
+				<div className="menu-grid"></div>
+			</div>
 		</>
 	);
 }
