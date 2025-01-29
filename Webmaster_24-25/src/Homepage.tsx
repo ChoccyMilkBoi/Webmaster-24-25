@@ -1,7 +1,6 @@
 import TextRect from "./TextRect";
 import Topbar from "./Topbar";
 function Homepage() {
-
 	return (
 		<>
 			<Topbar />
@@ -36,16 +35,26 @@ function Homepage() {
 				</TextRect>
 				<div className="services-wrap">
 					<div className="services-pic-wrapper">
-						<div className="services-pic">
-						</div>
+						<div className="services-pic"></div>
 					</div>
 					<div className="services-yap">
-						<p className="services-title">Catering</p>
-						{/* <p className="services-desc">
-							We offer catering services for any event, big or
-							small. From weddings, to corporate events, we have
-							you covered.
-						</p> */}
+						<p className="services-title">Services we Offer</p>
+						<ul className="services-desc">
+							<li>
+								Our family offers a wide variety of dishes while
+								dining in, to ensure you a great dining
+								experience.
+							</li>
+							<li>
+								We offer catering services for any event, big or
+								small. From weddings, to corporate events, we
+								have you covered.
+							</li>
+							<li>
+								We even cover meal prep for those who want to
+								dine in the comfort of their own home.
+							</li>
+						</ul>
 					</div>
 				</div>
 			</div>

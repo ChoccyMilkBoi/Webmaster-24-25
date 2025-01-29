@@ -1,44 +1,45 @@
 import logo from "./assets/Black and White Retro Bakery Logo.svg.svg";
+import { Link } from "react-router-dom";
 
 function Topbar() {
 	return (
 		<ul className="streamerBTW">
 			<li className="logo-buttonBTW">
-				<a href="index.html" className="logo-link">
+				<Link to="index.html" className="logo-link">
 					<br></br>
 					<img src={logo} className="logoBTW logo"></img>
 					<span className="logo-text">Home</span>
-				</a>
+				</Link>
 			</li>
 			<li className="buttonBTW">
-				<a href="menu.html" className="buttonlnkBTW">
+				<Link to="menu.html" className="buttonlnkBTW">
 					<br></br>
 					Menu
-				</a>
+				</Link>
 			</li>
 			<li className="buttonBTW">
-				<a href="reservations.html" className="buttonlnkBTW">
+				<Link to="reservations.html" className="buttonlnkBTW">
 					<br></br>
 					Reservations
-				</a>
+				</Link>
 			</li>
 			<li className="buttonBTW">
-				<a href="catering.html" className="buttonlnkBTW">
+				<Link to="catering.html" className="buttonlnkBTW">
 					<br></br>
 					Catering
-				</a>
+				</Link>
 			</li>
 			<li className="buttonBTW">
-				<a href="sources.html" className="buttonlnkBTW">
+				<Link to="sources.html" className="buttonlnkBTW">
 					<br></br>
 					Our sources
-				</a>
+				</Link>
 			</li>
 			<li className="buttonBTW">
-				<a href="mission.html" className="buttonlnkBTW">
+				<Link to="mission.html" className="buttonlnkBTW">
 					<br></br>
 					Our Mission
-				</a>
+				</Link>
 			</li>
 		</ul>
 	);

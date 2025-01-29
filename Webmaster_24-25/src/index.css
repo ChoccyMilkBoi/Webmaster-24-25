@@ -42,7 +42,7 @@
 .full-grid-2{
   display: grid;
   width: 100%;
-  height: auto;
+  height: 300vh;
   grid-template-columns: repeat(5, 1fr) ;
   grid-template-rows: repeat(8, 1fr);
   column-gap: 10px;
@@ -344,10 +344,18 @@
 .services-title{
   font-family: 'fyne-font';
 
-  grid-row-start: 3;
-  grid-row-end: 6;
+  grid-row-start: 2;
+  grid-row-end: 4;
 
   grid-column-start: 2;
   grid-column-end: 7;
   font-size: 50px;
+}
+.services-desc {
+  grid-row-start: 5;
+  grid-row-end: 16;
+  font-family: 'mikael scoot';
+  font-size: 25px;
+  grid-column-start: 1;
+  grid-column-end: 7;
 }
