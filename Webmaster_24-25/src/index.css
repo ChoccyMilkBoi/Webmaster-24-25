@@ -33,7 +33,7 @@
 .full-grid-1{
   display: grid;
   width: 100%;
-  height: auto;
+  height: 300vh;
   grid-template-columns: repeat(5, 1fr) ;
   grid-template-rows: repeat(4, 1fr);
   column-gap: 10px;
