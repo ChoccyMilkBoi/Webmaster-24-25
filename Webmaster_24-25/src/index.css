@@ -116,6 +116,7 @@
 }
 .hero-yap{
   font-size: 700%;
+  font-size: 6vw;
   color: #d0ff95;
   
   grid-column-start:3 ;
@@ -183,6 +184,8 @@
 }
 .logo-buttonBTW{
   float: left;
+  font-size: 20px;
+  font-size: 1vw;
 }
 
 .buttonlnkBTW {
@@ -192,6 +195,9 @@
   height: 100%;
   text-decoration: none;
   color: black;
+  font-size: 18px;
+  font-size: 1vw;
+  font-size: 2vh;
 }
 
 
@@ -200,13 +206,18 @@
   height: 32px;
   width: auto;
   margin-right: 8px;
+  font-size: 18px;
+  font-size: 1vw;
+  font-size: 2vh;
 }
 
 .logo-text{
   float: right;
-  font-size: 16;
-  font-weight: bolder;
   color: #272D2D;
+  padding-top: 6px;
+  font-size: 18px;
+  font-size: 1vw;
+  font-size: 2vh;
 }
 .logo-link{
   display: flex;
@@ -350,6 +361,9 @@
   grid-column-start: 2;
   grid-column-end: 7;
   font-size: 50px;
+  font-size: 2.5vw;
+  font-size: 5vh;
+  text-align: auto;
 }
 .services-desc {
   grid-row-start: 5;
@@ -384,5 +398,4 @@
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(16, 1fr);
-
 }

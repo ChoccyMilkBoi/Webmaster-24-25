@@ -29,7 +29,7 @@ function Homepage() {
 						we all have out own preferences. That's why we offer a
 						wide variety of dishes, all made with locally grown
 						ingredients. From Western, to Asian, and everything in
-						between, we have seomthing to satisfy your every
+						between, we have something to satisfy your every
 						craving.
 					</p>
 				</TextRect>
