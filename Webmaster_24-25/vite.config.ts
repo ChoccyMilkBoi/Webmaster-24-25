@@ -1,14 +1,26 @@
+import { defineConfig, Plugin } from "vite";
+import react from "@vitejs/plugin-react";
+
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
+const ClientSideRouting: Plugin = {
+  name: "dynamic-router",
+  configureServer(server) {
+    server.middlewares.use((req, res, next) => {
+      if (req.url && req.url.match(/^\/@\d+/)) {
+        req.url = "/";
+      }
+      next();
+    });
+  },
+};
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react()],
+  plugins: [react(), ClientSideRouting],
   build: {
     rollupOptions: {
       input: {

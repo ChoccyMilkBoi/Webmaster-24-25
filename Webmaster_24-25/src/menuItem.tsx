@@ -14,13 +14,15 @@ function MenuItem({ name, price, posx, posy, pic, children }: menuItemProps) {
 		<div
 			className="menu-item"
 			style={{
-				gridColumnStart: posx,
-				gridColumnEnd: posx + 1,
+				gridColumnStart: posx * 2,
+				gridColumnEnd: posx * 2 + 1,
 				gridRowStart: posy,
-				gridRowEnd: posy + 1,
+				gridRowEnd: posy + 2,
 			}}
+
 		>
-			<h3>{name}</h3>
+			<h3 className="menu-item-name">{name}</h3>
+			<div className="menu-item-yap"></div>
 		</div>
 	);
 }
