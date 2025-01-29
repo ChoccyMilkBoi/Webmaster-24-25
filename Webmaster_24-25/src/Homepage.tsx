@@ -1,6 +1,7 @@
 import TextRect from "./TextRect";
 import Topbar from "./Topbar";
 function Homepage() {
+
 	return (
 		<>
 			<Topbar />
@@ -33,7 +34,20 @@ function Homepage() {
 						craving.
 					</p>
 				</TextRect>
-				<div className="services-wrap"></div>
+				<div className="services-wrap">
+					<div className="services-pic-wrapper">
+						<div className="services-pic">
+						</div>
+					</div>
+					<div className="services-yap">
+						<p className="services-title">Catering</p>
+						{/* <p className="services-desc">
+							We offer catering services for any event, big or
+							small. From weddings, to corporate events, we have
+							you covered.
+						</p> */}
+					</div>
+				</div>
 			</div>
 		</>
 	);
