@@ -9,20 +9,21 @@ interface menuItemProps {
 	pic: string;
 }
 
-function MenuItem({ name, price, posx, posy, pic, children }: menuItemProps) {
+function MenuItem({ name, price, posx, posy, children }: menuItemProps) {
 	return (
 		<div
 			className="menu-item"
 			style={{
-				gridColumnStart: posx * 2,
-				gridColumnEnd: posx * 2 + 1,
+				gridColumnStart: posx,
+				gridColumnEnd: posx + 2,
 				gridRowStart: posy,
 				gridRowEnd: posy + 2,
 			}}
 
 		>
 			<h3 className="menu-item-name">{name}</h3>
-			<div className="menu-item-yap"></div>
+			<h3 className="menu-price"> $ {price}</h3>
+			<div className="menu-item-yap">{children}</div>
 		</div>
 	);
 }

@@ -33,9 +33,9 @@
 .full-grid-1{
   display: grid;
   width: 100%;
-  max-height: 280vh;
+  max-height: 150vh;
   grid-template-columns: repeat(5, 1fr) ;
-  grid-template-rows: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 1fr);
   column-gap: 10px;
   row-gap: 1em;
 }
@@ -388,8 +388,15 @@
   
   display: grid;
   max-height: 300vh;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(48, 1fr);
+  
+  grid-template-columns:
+  repeat(6, 1fr);
+  
+  grid-template-rows:
+  minmax(2.5vh, max-content)
+  repeat(48, 1fr);
+
+
   grid-column-start: 1;
   grid-column-end: 6;
   grid-row-start: 1;
@@ -398,22 +405,38 @@
 
 .menu-item{
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(16, 1fr);
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
   
 }
 .menu-item-name{
-  grid-column-start: 1;
-  grid-column-end: 6;
+  grid-column-start: 2;
+  grid-column-end: 3;
 
-  grid-row-start: 4;
-  grid-row-end: 12;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.menu-price{
+  grid-column-start: -3;
+  grid-column-end: -1;
+
+  grid-row-start: 1;
+  grid-row-end: 2;
 }
 .menu-item-yap{
+  grid-column-start:1 ; 
+  grid-column-end:-1;
+
+  grid-row-start:2 ;
+  grid-row-end:-1 ;
+
+
   font-family: 'fyne-font';
-  font-size: 50px;
-  font-size: 2.5vw;
-  font-size: 5vh;
+  font-size: 1.5vw;
   color: #272D2D;
   text-align: center;
+}
+
+.menu-lets-go{
+
 }
