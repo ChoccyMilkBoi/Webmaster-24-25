@@ -10,7 +10,7 @@ const __dirname = dirname(__filename);
 const ClientSideRouting: Plugin = {
   name: "dynamic-router",
   configureServer(server) {
-    server.middlewares.use((req, res, next) => {
+    server.middlewares.use((req, _res, next) => {
       if (req.url && req.url.match(/^\/@\d+/)) {
         req.url = "/";
       }
