@@ -7,7 +7,7 @@ function Topbar() {
 			<li className="logo-buttonBTW">
 				<Link to="/" className="logo-link">
 					<br></br>
-					<img src={logo} className="logoBTW logo" alt = "..."></img>
+					<img src={logo} className="logoBTW logo" alt="..."></img>
 					<span className="logo-text">Home</span>
 				</Link>
 			</li>
@@ -20,7 +20,7 @@ function Topbar() {
 			<li className="buttonBTW">
 				<Link to="/sources" className="buttonlnkBTW">
 					<br></br>
-					Our sources
+					Sources & Sustainability
 				</Link>
 			</li>
 			<li className="buttonBTW">
