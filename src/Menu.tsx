@@ -191,6 +191,17 @@ function menu() {
 							whipped cream and fresh seasonal fruit.
 						</p>
 					</MenuItem>
+					<div className="vegan-disclaimer">
+						<h1 className="vegan-disclaimer-title">
+							Accomodations and replacements
+						</h1>
+						<p className="vegan-disclaimer-yap">
+							We also offer options that are gluten-free, vegan, 
+							or limited substitution with out of season or non-local
+							fruits and vegetables in meals, please ask your server 
+							about these subsitutions, or add substitutions when ordering online!
+						</p>
+					</div>
 				</div>
 			</div>
 		</>

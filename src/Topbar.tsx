@@ -26,7 +26,7 @@ function Topbar() {
 			<li className="buttonBTW">
 				<Link to="/mission" className="buttonlnkBTW">
 					<br></br>
-					Our Mission
+					Reference & Documentation
 				</Link>
 			</li>
 		</ul>

@@ -73,11 +73,10 @@ function Sources() {
 							}}
 							className="sustain-P"
 							>
-								The bakery adjusts its menu based on what is 
+								We adjust our menu based on what is 
 								available locally, ensuring the freshest 
 								ingredients and giving customers a taste of the 
-								season. For example, a spring menu may feature 
-								rhubarb tarts, while autumn includes spiced pumpkin bread. 
+								season. 
 						</p>
 					</div>
 					<div className="sustain-yap-3">
