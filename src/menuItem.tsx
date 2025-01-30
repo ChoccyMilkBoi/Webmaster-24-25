@@ -14,10 +14,10 @@ function MenuItem({ name, price, posx, posy, children }: menuItemProps) {
 		<div
 			className="menu-item"
 			style={{
-				gridColumnStart: posx,
-				gridColumnEnd: posx + 2,
+				gridColumnStart: posx * 2,
+				gridColumnEnd: posx * 2 + 4,
 				gridRowStart: posy,
-				gridRowEnd: posy + 2,
+				gridRowEnd: posy + 3,
 			}}
 
 		>

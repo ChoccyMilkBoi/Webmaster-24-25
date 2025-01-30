@@ -1,3 +1,4 @@
+import MenuHeader from "./MenuHeader";
 import Topbar from "./Topbar";
 import "./index.css";
 import MenuItem from "./menuItem";
@@ -6,8 +7,9 @@ function menu() {
 	return (
 		<>
 			<Topbar />
-			<div className="full-grid-2">
+			<div className="full-grid-1">
 				<div className="menu-grid">
+					<MenuHeader row={1}>Appetizers</MenuHeader>
 					<MenuItem
 						name="Bruschetta al Pomodoro"
 						price={6.99}
@@ -52,6 +54,11 @@ function menu() {
 						A blend of cucumbers, tomatoes, red onions, and Kalamata olives, topped with feta cheese and drizzled with herb-infused olive oil dressing.
 						</p>
 					</MenuItem>
+
+
+					<MenuHeader row={13}>Entrees</MenuHeader>
+					
+					
 					<MenuItem
 						name="Vegan Risotto al Funghi"
 						price={14.99}
@@ -118,52 +125,53 @@ function menu() {
 						Fresh spinach leaves  sautéed in garlic and extra virgin olive oil, seasoned to perfection.
 						</p>
 					</MenuItem>
+
+
+					<MenuHeader row={28}>Desserts</MenuHeader>
+					
+					
 					<MenuItem
-						name="ChoppedChyn"
-						price={3.5}
+						name="Cinnamon Buns"
+						price={4.25}
 						posx={1}
-						posy={28}
+						posy={30}
 						pic="Webmaster_24-25/src/assets/services-pic.jpg"
 					>
 						<p>
-							Chopped Chyn is a delicious salad with a variety of
-							ingredients.
+						Soft, spiced rolls swirled with cinnamon and sugar, often topped with icing.
 						</p>
 					</MenuItem>
 					<MenuItem
-						name="ChoppedChyn"
-						price={3.5}
+						name="Arroz Con Leche"
+						price={5.99}
 						posx={4}
-						posy={28}
+						posy={30}
 						pic="Webmaster_24-25/src/assets/services-pic.jpg"
 					>
 						<p>
-							Chopped Chyn is a delicious salad with a variety of
-							ingredients.
+						A rich, creamy rice pudding made with sweetened milk, cinnamon, and rice.
 						</p>
 					</MenuItem>
 					<MenuItem
-						name="ChoppedChyn"
-						price={3.5}
+						name="Madeleines"
+						price={4.25}
 						posx={1}
 						posy={34}
 						pic="Webmaster_24-25/src/assets/services-pic.jpg"
 					>
 						<p>
-							Chopped Chyn is a delicious salad with a variety of
-							ingredients.
+						Light, airy shell-shaped sponge cakes with a hint of lemon.
 						</p>
 					</MenuItem>
 					<MenuItem
-						name="ChoppedChyn"
-						price={3.5}
+						name="Kardinalschnitten"
+						price={7.00}
 						posx={4}
 						posy={34}
 						pic="Webmaster_24-25/src/assets/services-pic.jpg"
 					>
 						<p>
-							Chopped Chyn is a delicious salad with a variety of
-							ingredients.
+						A meringue and sponge cake dessert, often served with whipped cream and fruit.
 						</p>
 					</MenuItem>
 				</div>
