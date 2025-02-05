@@ -180,7 +180,7 @@ function menu() {
 						</p>
 					</MenuItem>
 					<MenuItem
-						name="Kardinalschnitten"
+						name="Kardinal Schnitten"
 						price={7.0}
 						posx={4}
 						posy={34}

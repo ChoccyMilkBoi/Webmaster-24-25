@@ -8,6 +8,64 @@
   </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="/src/mission.tsx"></script>
+      <ul className="streamerBTW">
+        <li className="logo-buttonBTW">
+          <Link to="/" className="logo-link">
+            <br></br>
+            <img src={logo} className="logoBTW logo" alt="..."></img>
+            <span className="logo-text">Home</span>
+          </Link>
+        </li>
+        <li className="buttonBTW">
+          <Link to="/menu" className="buttonlnkBTW">
+            <br></br>
+            Menu
+          </Link>
+        </li>
+        <li className="buttonBTW">
+          <Link to="/sources" className="buttonlnkBTW">
+            <br></br>
+            Sources & Sustainability
+          </Link>
+        </li>
+        <li className="buttonBTW">
+          <Link to="/mission" className="buttonlnkBTW">
+            <br></br>
+            Reference & Documentation
+          </Link>
+        </li>
+      </ul>
+			<div className="full-grid-3">
+				<div className = "hero-section-docs">
+					<div className="docs-title">
+						<h1 className="docs-title-yap">Documentation and Sources</h1>
+						<ul className = "sauces-list">
+							<li>Wondering where we get all of these goodies and info from? 
+							<br></br>
+							check out below!</li>	
+							<li> All fonts on this site were acquired 
+								under a personal use license, and all images
+								are under a free to use license.
+
+							</li>	
+							<li>
+								<button className="download-button" onClick={SourcesLink}>
+									Download our sources PDF!
+								</button>
+							</li>
+							<li>
+								<button className="download-button" onClick={SweatLink}>
+									Download our plan of work log!!
+								</button>
+							</li>
+							<li>
+								<button className="download-button" onClick={CopyrightLink}>
+									Download our Copyright Form!
+								</button>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
   </body>
 </html>
