@@ -6,7 +6,7 @@ function Mission() {
 			const pdfUrl = "src/assets/Webmaster Research Source Citations.pdf";
 			const link = document.createElement("a");
 			link.href = pdfUrl;
-			link.download = "document.pdf"; // specify the filename
+			link.download = "Webmaster Research Source Citations.pdf"; // specify the filename
 			document.body.appendChild(link);
 			link.click();
 			document.body.removeChild(link);
@@ -15,7 +15,7 @@ function Mission() {
 			const pdfUrl = "src/assets/planOfWork.pdf";
 			const link = document.createElement("a");
 			link.href = pdfUrl;
-			link.download = "document.pdf";
+			link.download = "planOfWork.pdf";
 			document.body.appendChild(link);
 			link.click();
 			document.body.removeChild(link);
@@ -24,7 +24,7 @@ function Mission() {
 			const pdfUrl = "src/assets/TSA Student Copyright 24-25 .pdf";
 			const link = document.createElement("a");
 			link.href = pdfUrl;
-			link.download = "document.pdf";
+			link.download = "TSA Student Copyright 24-25 .pdf";
 			document.body.appendChild(link);
 			link.click();
 			document.body.removeChild(link);
