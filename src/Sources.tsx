@@ -8,7 +8,7 @@ function Sources() {
 			<div className="full-grid-1">
 				<div className="hero-section-sourced">
 					<div className="center-hero-yap">
-						<p className="hero-yap font-beeg">
+						<p className="yap-yap font-beeg">
 							Enjoy the <s>first</s> freshest harvest, just for
 							you
 						</p>

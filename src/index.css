@@ -125,8 +125,8 @@
 }
 
 .hero-yap {
-  font-size: 700%;
-  font-size: 6vw;
+  font-size: 50%;
+  font-size: 3vw;
   color: #d0ff95;
 
   grid-column-start: 3;
@@ -486,7 +486,20 @@
 }
 
 
+.yap-yap {
+  font-size: 300%;
+  font-size: 5vw;
+  color: #d0ff95;
 
+  grid-column-start: 3;
+  grid-column-end: 14;
+
+  grid-row-start: 4;
+  grid-row-end: 6;
+
+
+  font-weight: bolder;
+}
 
 
 .hero-section-sourced {
@@ -772,7 +785,7 @@ h3 {
 
 .hero-yap {
   font-size: 700%;
-  font-size: 6vw;
+  font-size: 5vw;
   color: #d0ff95;
 
   grid-column-start: 3;
