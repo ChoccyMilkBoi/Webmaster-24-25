@@ -3,7 +3,7 @@ import Topbar from "./Topbar";
 
 function Mission() {
 		const SourcesLink = () => {
-			const pdfUrl = "src/assets/Webmaster Research Source Citations.pdf";
+			const pdfUrl = "src/Webmaster Research Source Citations.pdf";
 			const link = document.createElement("a");
 			link.href = pdfUrl;
 			link.download = "Webmaster Research Source Citations.pdf"; // specify the filename
@@ -12,7 +12,7 @@ function Mission() {
 			document.body.removeChild(link);
 		};
 		const SweatLink = () => {
-			const pdfUrl = "src/assets/planOfWork.pdf";
+			const pdfUrl = "src/planOfWork.pdf";
 			const link = document.createElement("a");
 			link.href = pdfUrl;
 			link.download = "planOfWork.pdf";
@@ -21,10 +21,10 @@ function Mission() {
 			document.body.removeChild(link);
 		};
 		const CopyrightLink = () => {
-			const pdfUrl = "src/assets/TSA Student Copyright 24-25 .pdf";
+			const pdfUrl = "src/TSA Student Copyright 24-25 .pdf";
 			const link = document.createElement("a");
 			link.href = pdfUrl;
-			link.download = "TSA Student Copyright 24-25 .pdf";
+			link.download = "TSA Student Copyright 24-25.pdf";
 			document.body.appendChild(link);
 			link.click();
 			document.body.removeChild(link);
